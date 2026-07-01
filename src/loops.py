@@ -25,3 +25,13 @@ name=['ash']
 for marks,name in zip(marks,name):
     print(marks,name)
 '''
+
+
+text = "Python"
+
+reverse = ""
+
+for ch in text:
+    reverse = ch + reverse
+
+print(reverse)
